@@ -6,7 +6,7 @@ var app = express();
 app.use(logfmt.requestLogger());
 
 app.get('/', function(req, res) {
-  res.send('<div style="blue">Hello World! Caitlin</div>');
+  res.send('<div style="color:blue">Hello World! Caitlin</div>');
 
 });
 
